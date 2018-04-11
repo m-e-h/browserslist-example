@@ -149,9 +149,9 @@ and add to `package.json`:
     }
   },
 + "babel": {
-+   "presets": [
++   "presets": [
 +     [
-+       "@babel/env"
++       "@babel/preset-env"
 +     ]
 +   ]
 + },
